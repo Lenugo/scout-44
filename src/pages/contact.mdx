@@ -1,0 +1,69 @@
+import { IoLocationOutline } from 'react-icons/io5'
+import { CiMail } from 'react-icons/ci'
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from 'react-icons/fa'
+
+# Únetenos
+
+<div>
+  <div>
+    {/* <span className='font-medium text-blue-500 dark:text-blue-400'>Únetenos</p> */}
+
+    <h2 className='mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white'>Sé parte del Movimiento Scout</h2>
+
+    <span className='mt-3 text-gray-500 dark:text-gray-400'>Únete a una de nuestras unidades o sé parte nuestro equipo de adultos voluntarios. </span>
+  </div>
+
+  <div className='grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3'>
+    <div className='grid grid-cols-1 gap-0 lg:gap-6 sm:grid-cols-2 lg:grid-cols-1'>
+      <div>
+        <span className='flex items-center justify-center w-[30px] h-[30px] text-blue-500 rounded-full bg-blue-100/90 dark:text-white dark:bg-gray-800'>
+          <CiMail />
+        </span>
+
+        <h4 className='mt-4 mb-2 text-base font-medium text-gray-800 dark:text-white'>Correo Electrónico</h4>
+        [<span className="text-sm text-blue-500 dark:text-blue-400">cpetgs44@gmail.com</span>](mailto:cpetgs44@gmail.com)
+      </div>
+
+      <div>
+        <span className='flex items-center justify-center w-[30px] h-[30px] text-blue-500 rounded-full bg-blue-100/90 dark:text-white dark:bg-gray-800'>
+          <IoLocationOutline />
+        </span>
+
+        <h4 className='mt-4 mb-2 text-base font-medium text-gray-800 dark:text-white'>Punto de Reunión</h4>
+        <span className='mt-2 text-sm text-gray-500 dark:text-gray-400'>Colegio Padre Emiliano Tardif</span>
+        <span className='mt-2 text-sm text-blue-500 dark:text-blue-400'>
+          Calle #6, Vista Linda #49, Santiago de los Caballeros, Santiago.
+        </span>
+      </div>
+
+      <div>
+        <span className='flex items-center justify-center w-[30px] h-[30px] text-blue-500 rounded-full bg-blue-100/90 dark:text-white dark:bg-gray-800'>
+          <FaInstagram />
+        </span>
+
+        <h4 className='mt-4 mb-2 text-base font-medium text-gray-800 dark:text-white'>Instagram</h4>
+        [<span className="text-sm text-blue-500 dark:text-blue-400">@gruposcout_44</span>](https://www.instagram.com/gruposcout_44/)
+      </div>
+
+      <div>
+        <span className='flex items-center justify-center w-[30px] h-[30px] text-blue-500 rounded-full bg-blue-100/40 dark:text-white dark:bg-gray-800'>
+          <FaYoutube />
+        </span>
+
+        <h4 className='mt-4 mb-2 text-base font-medium text-gray-800 dark:text-white'>Youtube</h4>
+        [<span className="text-sm text-blue-500 dark:text-blue-400">@gruposcout44padremilianotardif</span>](https://www.youtube.com/@gruposcout44padremilianotardif)
+      </div>
+    </div>
+
+    <div className='overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto'>
+      <iframe
+        src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.9356224702237!2d-70.70393822333426!3d19.415187341234006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1cf26f7a69629%3A0x96d39779ebe538ef!2sColegio%20Padre%20Emiliano%20Tardif!5e0!3m2!1ses-419!2sdo!4v1713730543965!5m2!1ses-419!2sdo'
+        width='800'
+        height='600'
+        style={{ border: 0 }}
+        loading='lazy'
+      />
+    </div>
+  </div>
+</div>
