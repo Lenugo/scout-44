@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introdución
 
 ## Es divertido ser scout hoy
