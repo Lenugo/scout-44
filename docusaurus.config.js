@@ -81,7 +81,7 @@ const config = {
             position: 'left',
             label: 'Unidades',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/contact', label: 'Únetenos', position: 'left'},
         ],
       },
