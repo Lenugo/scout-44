@@ -78,11 +78,11 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'unidadesSidebar',
-            position: 'left',
+            position: 'right',
             label: 'Unidades',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/contact', label: 'Únetenos', position: 'left'},
+          {to: '/contact', label: 'Únetenos', position: 'right'},
         ],
       },
       footer: {

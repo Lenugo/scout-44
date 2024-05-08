@@ -20,7 +20,6 @@ const ScorePatrols = () => {
     setLastUpdated(formattedDate);
   }, [sortedPatrols]);
 
-
 	return (
 		<div className='w-full md:w-4/5 mx-auto'>
 			<div className='flex justify-between mb-4 text-xl md:text-2xl font-bold'>
@@ -49,7 +48,7 @@ const ScorePatrols = () => {
 				</div>
 			))}
 
-			<span className='block text-right w-full text-sm text-gray-400'>Actualizado por última vez: {lastUpdated}</span>
+			<span className='block text-right w-full text-sm text-gray-500 italic'>Actualizado por última vez: <strong>{lastUpdated}</strong></span>
 		</div>
 	)
 }
