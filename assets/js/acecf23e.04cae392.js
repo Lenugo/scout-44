@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscout_44_app=self.webpackChunkscout_44_app||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog"}')}}]);
