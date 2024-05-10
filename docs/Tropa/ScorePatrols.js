@@ -1,23 +1,24 @@
 import React from 'react'
-import { patrols } from './utils';
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { patrols } from './utils'
+import { useState } from 'react'
+import { useEffect } from 'react'
 
 const ScorePatrols = () => {
-	const [lastUpdated, setLastUpdated] = useState(getFormattedDate());
-	const sortedPatrols = patrols.sort((a, b) => b.score - a.score);
+	const [lastUpdated, setLastUpdated] = useState(getFormattedDate())
+	const sortedPatrols = patrols.sort((a, b) => b.score - a.score)
 
   function getFormattedDate() {
-    const date = new Date();
-    const day = date.getDate();
-    const month = date.getMonth() + 1; 
-    const year = date.getFullYear();
-    return `${day}/${month}/${year}`;
+    const date = new Date()
+    const day = date.getDate()
+    const month = date.getMonth() + 1 
+    const year = date.getFullYear()
+    return `${day}/${month}/${year}`
   }
 
   useEffect(() => {
     const formattedDate = getFormattedDate();
-    setLastUpdated(formattedDate);
+		setLastUpdated(formattedDate)
+		setLastUpdated(`8/5/2024`) // TEMPORALLY HARDCODE
   }, [sortedPatrols]);
 
 	return (
