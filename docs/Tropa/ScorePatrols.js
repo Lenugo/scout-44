@@ -29,17 +29,17 @@ const ScorePatrols = () => {
 
 			{sortedPatrols.map((x, index) => (
 				<div key={x.name} className='flex justify-between'>
-					<div class='flex items-center'>
-						<div class='mr-2 sm:mr-3'>
+					<div className='flex items-center'>
+						<div className='mr-2 sm:mr-3'>
 							<img
-								class='w-14 h-14 rounded-full'
+								className='w-14 h-14 rounded-full'
 								src={require(`${x.imgUri}`).default}
 								width='50'
 								height='50'
 								alt={`Insignia de ${x.name}`}
 							/>
 						</div>
-						<div class='font-medium text-gray-800 dark:text-white capitalize'>{x.name}</div>
+						<div className='font-medium text-gray-800 dark:text-white capitalize'>{x.name}</div>
 						{index === 0 && <span className="text-yellow-500 ml-2">🥇</span>}
             {index === 1 && <span className="text-yellow-500 ml-2">🥈</span>}
             {index === 2 && <span className="text-yellow-500 ml-2">🥉</span>}
