@@ -2,7 +2,7 @@ import React from "react";
 
 const ThirdClassTest = () => { 
   return <>
-    <h2>Qlq</h2>
+    <h2>Testing</h2>
   </>
 }
 
