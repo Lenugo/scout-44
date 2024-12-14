@@ -6976,7 +6976,7 @@ packages:
       minipass: 7.1.2
     dev: true
 
-  /path-to-regexp@0.1.10:
+  /path-to-regexp@0.1.12:
     resolution: {integrity: sha512-7lf7qcQidTku0Gu3YDPc8DJ1q7OOucfa/BSsIwjuh56VU7katFvuM8hULfkwB3Fns/rsVF7PwPKVw1sl5KQS9w==}
     dev: false
 
