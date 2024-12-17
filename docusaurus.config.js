@@ -4,24 +4,24 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from 'prism-react-renderer';
-import tailwindPlugin from "./plugins/tailwind-plugin.cjs"; 
+import { themes as prismThemes } from "prism-react-renderer";
+import tailwindPlugin from "./plugins/tailwind-plugin.cjs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Grupo Scout #44',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/logo-gs44.png',
+  title: "Grupo Scout #44",
+  tagline: "Dinosaurs are cool",
+  favicon: "img/logo-gs44.png",
 
-  url: 'https://Lenugo.github.io',
-  baseUrl: '/scout-44/',
-  organizationName: 'Lenugo',
-  projectName: 'scout-44',
-  deploymentBranch: 'gh-pages',
+  url: "https://Lenugo.github.io",
+  baseUrl: "/scout-44/",
+  organizationName: "Lenugo",
+  projectName: "scout-44",
+  deploymentBranch: "gh-pages",
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   plugins: [tailwindPlugin],
 
@@ -29,31 +29,31 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'es',
-    locales: ['es'],
+    defaultLocale: "es",
+    locales: ["es"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -63,26 +63,27 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo-gs44.png',
+      image: "img/logo-gs44.png",
       navbar: {
-        title: 'Grupo Scout #44',
+        title: "Grupo Scout #44",
         logo: {
-          alt: 'Grupo Scout #44 logo',
-          src: 'img/logo-gs44.png',
+          alt: "Grupo Scout #44 logo",
+          src: "img/logo-gs44.png",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'unidadesSidebar',
-            position: 'right',
-            label: 'Unidades',
+            type: "docSidebar",
+            sidebarId: "unidadesSidebar",
+            position: "right",
+            label: "Unidades",
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/contact', label: 'Únetenos', position: 'right'},
+          // { to: "/blog", label: "Blog", position: "left" },
+          { to: "/calendar", label: "Calendario", position: "right" },
+          { to: "/contact", label: "Únetenos", position: "right" },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           // {
           //   title: 'Docs',
