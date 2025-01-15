@@ -1,5 +1,6 @@
 import React from "react";
-import { scorePatrols } from "./utils";
+import { scorePatrols, accScore2024 } from "./scoreUtils";
+import ScoreAccordion from "../../src/components/ScoreAccordion";
 
 const ScorePatrols = () => {
   const sortedPatrols = scorePatrols.patrols.sort((a, b) => b.score - a.score);
@@ -44,6 +45,8 @@ const ScorePatrols = () => {
       <span className="block text-right w-full text-sm text-gray-500 italic">
         Actualizado por última vez: <strong>{scorePatrols.lastUpdated}</strong>
       </span>
+
+      <ScoreAccordion year="2024" scores={accScore2024} />
     </div>
   );
 };
