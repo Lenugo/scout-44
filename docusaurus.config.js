@@ -79,6 +79,7 @@ const config = {
           },
           // { to: "/blog", label: "Blog", position: "left" },
           { to: "/calendar", label: "Calendario", position: "right" },
+          { to: "/library", label: "Biblioteca", position: "right" },
           { to: "/contact", label: "Únetenos", position: "right" },
         ],
       },

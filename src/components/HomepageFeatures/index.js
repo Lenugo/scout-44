@@ -36,7 +36,12 @@ function Feature({ title, description, imgUrl }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img className='rounded-sm object-cover w-full md:w-[348px] h-full md:max-h-[261px]' src={imgUrl} alt={title} />
+        <img 
+          className='rounded-sm object-cover w-full md:w-[348px] h-full md:max-h-[261px] aspect-[4/3]' 
+          src={imgUrl} 
+          alt={title} 
+          loading='eager' 
+        />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

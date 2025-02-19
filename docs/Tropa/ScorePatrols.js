@@ -1,5 +1,5 @@
 import React from "react";
-import { scorePatrols, accScore2024 } from "./scoreUtils";
+import { scorePatrols, accScore2024 } from "@site/utils/scoreUtils";
 import ScoreAccordion from "../../src/components/ScoreAccordion";
 
 const ScorePatrols = () => {
