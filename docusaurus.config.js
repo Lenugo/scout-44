@@ -36,21 +36,18 @@ const config = {
   presets: [
     [
       "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -59,76 +56,41 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: "img/logo-gs44.png",
-      navbar: {
-        title: "Grupo Scout #44",
-        logo: {
-          alt: "Grupo Scout #44 logo",
-          src: "img/logo-gs44.png",
+  themeConfig: ({
+    image: "img/logo-gs44.png",
+    metadata: [
+      { name: 'keywords', content: 'scout, grupo scout, scouts, actividades al aire libre, desarrollo juvenil' },
+      { name: 'description', content: 'Grupo Scout #44 - Una comunidad para el desarrollo juvenil a través de actividades al aire libre y el escultismo.' },
+      { name: 'author', content: 'Grupo Scout #44' },
+    ],
+    navbar: {
+      title: "Grupo Scout #44",
+      logo: {
+        alt: "Grupo Scout #44 logo",
+        src: "img/logo-gs44.png",
+      },
+      items: [
+        {
+          type: "docSidebar",
+          sidebarId: "unidadesSidebar",
+          position: "right",
+          label: "Unidades",
         },
-        items: [
-          {
-            type: "docSidebar",
-            sidebarId: "unidadesSidebar",
-            position: "right",
-            label: "Unidades",
-          },
-          // { to: "/blog", label: "Blog", position: "left" },
-          { to: "/calendar", label: "Calendario", position: "right" },
-          { to: "/library", label: "Biblioteca", position: "right" },
-          { to: "/contact", label: "Únetenos", position: "right" },
-        ],
-      },
-      footer: {
-        style: "dark",
-        links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //   ],
-          // },
-        ],
-        copyright: `© ${new Date().getFullYear()} Grupo Scout #44™`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+        { to: "/calendar", label: "Calendario", position: "right" },
+        { to: "/library", label: "Biblioteca", position: "right" },
+        { to: "/contact", label: "Únetenos", position: "right" },
+      ],
+    },
+    footer: {
+      style: "dark",
+      links: [],
+      copyright: `© ${new Date().getFullYear()} Grupo Scout #44™`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  }),
 };
 
 export default config;
