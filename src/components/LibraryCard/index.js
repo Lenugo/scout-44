@@ -5,7 +5,7 @@ import { FaFilePdf } from 'react-icons/fa';
 export default function LibraryCard({ title, pdfUrl }) {
   return (
     <div className="col col--4 margin-bottom--lg px-2">
-      <div className="card h-20 md:h-full hover:shadow-lg transition-shadow">
+      <div className="card h-fit md:h-full hover:shadow-lg transition-shadow">
         <div className="card__header py-2 mb-2">
           <div className="flex items-center gap-2">
             <FaFilePdf className="text-red-500 text-xl" />
