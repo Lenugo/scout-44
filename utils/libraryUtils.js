@@ -75,4 +75,36 @@ export const librariesData = [
     title: "Juegos de Scouts (6ta edición)",
     pdfUrl: "/files/juegos-scouts-es.pdf",
   },
+  {
+    title: "Juegos de Scouts en el local",
+    pdfUrl: "/files/juegos-local.pdf",
+  },
+  {
+    title: "Manual Champions for Nature | Kit de Acción",
+    pdfUrl: "/files/kta-cfn.pdf",
+  },
+  {
+    title: "Manual Tide Turners Plactic | Kit de Acción",
+    pdfUrl: "/files/kta-ttp.pdf",
+  },
+  {
+    title: "Manual de implementación de Earth Tribe",
+    pdfUrl: "/files/juegos-earth-tribe.pdf",
+  },
+  {
+    title: "Manual de Energía Solar | Scouts Go Solar",
+    pdfUrl: "/files/manual-energia-solar.pdf",
+  },
+  {
+    title: "Manual de Especialidades BSA (2011)",
+    pdfUrl: "/files/manual-especialidades-bsa-2011.pdf",
+  },
+  {
+    title: "Manual de Especialidades | Espanñol",
+    pdfUrl: "/files/manual-especialidades-es.pdf",
+  },
+  {
+    title: "Política de Mundial de A Salvo de Peligro",
+    pdfUrl: "/files/politica-sfh.pdf",
+  },
 ];
