@@ -3,37 +3,37 @@
  * to use for update the score week by week
  */
 export const scorePatrols = {
-  lastUpdated: "9/2/2025", // TODO: date time format {d/m/yyyy}
+  lastUpdated: "23/2/2025", // TODO: date time format {d/m/yyyy}
   patrols: [
     {
       name: "Patrulla lobo",
       igAccount: "patrullalobo44",
       imgUri: "./img/lobo-badge.png",
-      score: 1157,
+      score: 1175,
     },
     {
       name: "Patrulla ardilla",
       igAccount: "patullaardilla44",
       imgUri: "./img/ardilla-badge.png",
-      score: 899,
+      score: 1024,
     },
     {
       name: "Patrulla cuervo",
       igAccount: "patrullacuervo_gs44",
       imgUri: "./img/cuervo-badge.png",
-      score: 513,
+      score: 2157,
     },
     {
       name: "Patrulla liebre",
       igAccount: "patrullaliebre44",
       imgUri: "./img/liebre-badge.png",
-      score: 433,
+      score: 594,
     },
     {
       name: "Patrulla toro",
       igAccount: "patrulla_toro44",
       imgUri: "./img/toro-badge.png",
-      score: 1112,
+      score: 1614,
     },
   ],
 };
