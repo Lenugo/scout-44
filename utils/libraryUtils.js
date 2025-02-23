@@ -84,7 +84,7 @@ export const librariesData = [
     pdfUrl: "/files/kta-cfn.pdf",
   },
   {
-    title: "Manual Tide Turners Plactic | Kit de Acción",
+    title: "Manual Tide Turners Plastic | Kit de Acción",
     pdfUrl: "/files/kta-ttp.pdf",
   },
   {
@@ -104,7 +104,7 @@ export const librariesData = [
     pdfUrl: "/files/manual-especialidades-es.pdf",
   },
   {
-    title: "Política de Mundial de A Salvo de Peligro",
+    title: "Política de Mundial de A Salvo del Peligro",
     pdfUrl: "/files/politica-sfh.pdf",
   },
 ];
