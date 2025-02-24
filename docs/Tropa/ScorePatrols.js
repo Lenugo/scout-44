@@ -38,7 +38,7 @@ const ScorePatrols = () => {
             {index === 1 && <span className="text-yellow-500 ml-2">🥈</span>}
             {index === 2 && <span className="text-yellow-500 ml-2">🥉</span>}
           </div>
-          <span className="mr-2">{x.score}</span>
+          <span className="mr-2">{x.score.toLocaleString('es-DO')}</span>
         </div>
       ))}
 
