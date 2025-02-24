@@ -59,7 +59,7 @@ const config = {
   themeConfig: ({
     image: "img/logo-gs44.png",
     metadata: [
-      { name: 'keywords', content: ['scout', 'grupo scout', 'scouts', 'actividades al aire libre', 'desarrollo juvenil', 'Grupo Scout #44'] },
+      { name: 'keywords', content: 'scout, grupo scout, scouts, actividades al aire libre, desarrollo juvenil, Grupo Scout #44' },
       { name: 'description', content: 'Grupo Scout #44 - Una comunidad para el desarrollo juvenil a través de actividades al aire libre y el escultismo.' },
       { name: 'author', content: 'Grupo Scout #44' },
     ],
