@@ -89,7 +89,7 @@ export const librariesData = [
   },
   {
     title: "Manual de implementación de Earth Tribe",
-    pdfUrl: "/files/juegos-earth-tribe.pdf",
+    pdfUrl: "/files/manual-earth-tribe.pdf",
   },
   {
     title: "Manual de Energía Solar | Scouts Go Solar",
