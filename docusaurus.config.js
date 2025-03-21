@@ -76,9 +76,9 @@ const config = {
           position: "right",
           label: "Unidades",
         },
-        { to: "/calendar", label: "Calendario", position: "right" },
-        { to: "/library", label: "Biblioteca", position: "right" },
-        { to: "/contact", label: "Únetenos", position: "right" },
+        { to: "/calendario", label: "Calendario", position: "right" },
+        { to: "/biblioteca", label: "Biblioteca", position: "right" },
+        { to: "/contactanos", label: "Únetenos", position: "right" },
       ],
     },
     footer: {
