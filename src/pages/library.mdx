@@ -1,0 +1,23 @@
+---
+title: Biblioteca
+description: Descarga los manuales scouts en formato PDF
+---
+
+import LibraryCard from '@site/src/components/LibraryCard';
+import { librariesData } from '@site/utils/libraryUtils'
+
+# Biblioteca
+
+<h2 className='my-3 text-[1.1rem] text-gray-500 dark:text-gray-400 mb-4'>Aquí encontrarás diversos manuales, libros y documentos Scouts para descarga en formato PDF.</h2>
+
+<div className="container">
+  <div className="row">
+    {librariesData.map((library, index) => (
+      <LibraryCard
+        key={index}
+        title={library.title}
+        pdfUrl={library.pdfUrl}
+      />
+    ))}
+  </div>
+</div>
