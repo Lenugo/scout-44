@@ -3610,7 +3610,7 @@ packages:
         integrity: sha512-WDF+xj5rRWmD5tj6bIqRi6CkLIXbbNQUcxQHzGysQzvHmdYG2G7p/Tf0J0gpxGgkeMZNTIjT/AoSvC9Xehcgdg==,
       }
 
-  estree-util-value-to-estree@3.3.2:
+  estree-util-value-to-estree@3.3.3:
     resolution:
       {
         integrity: sha512-hYH1aSvQI63Cvq3T3loaem6LW4u72F187zW4FHpTrReJSm6W66vYTFNO1vH/chmcOulp1HlAj1pxn8Ag0oXI5Q==,
@@ -4354,7 +4354,7 @@ packages:
       }
     engines: { node: ">= 4" }
 
-  image-size@1.2.0:
+  image-size@1.2.1:
     resolution:
       {
         integrity: sha512-4S8fwbO6w3GeCVN6OPtA9I5IGKkcDMPcKndtUlpJuCwu7JLjtj7JZpwqLuyY2nrmQT3AWsCJLSKPsc2mPBSl3w==,
@@ -9143,10 +9143,10 @@ snapshots:
       "@mdx-js/mdx": 3.1.0(acorn@8.14.0)
       "@slorber/remark-comment": 1.0.0
       escape-html: 1.0.3
-      estree-util-value-to-estree: 3.3.2
+      estree-util-value-to-estree: 3.3.3
       file-loader: 6.2.0(webpack@5.98.0)
       fs-extra: 11.3.0
-      image-size: 1.2.0
+      image-size: 1.2.1
       mdast-util-mdx: 3.0.0
       mdast-util-to-string: 4.0.0
       react: 18.3.1
@@ -11101,7 +11101,7 @@ snapshots:
       astring: 1.9.0
       source-map: 0.7.4
 
-  estree-util-value-to-estree@3.3.2:
+  estree-util-value-to-estree@3.3.3:
     dependencies:
       "@types/estree": 1.0.6
 
@@ -11679,7 +11679,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  image-size@1.2.0:
+  image-size@1.2.1:
     dependencies:
       queue: 6.0.2
 
